@@ -17,5 +17,5 @@ jobs:
         pip install beautifulsoup4
     - name: cccc
       run: |
-        python cccc.py
+        python c.py
         sh run.sh
