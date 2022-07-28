@@ -9,6 +9,7 @@ from time import sleep
 from threading import Thread
 
 random.seed(datetime.datetime.now())
+count = 360
 proxy_list = []
 article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
                 'https://blog.csdn.net/agonie201218/article/details/122607511?spm=1001.2014.3001.5501', 'https://blog.csdn.net/agonie201218/article/details/122945467?spm=1001.2014.3001.5501']
@@ -99,7 +100,7 @@ def solve():
         requests.get(article.replace('https', 'http'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
         print('ok ip:'+proxy['http'])
-
+        count = count -1
     except:
         print('no')
         try:
@@ -109,7 +110,7 @@ def solve():
 
 
 article_list = getList(
-    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=1&size=100&businessType=lately&noMore=false&username=agonie201218")
+    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=2&size=100&businessType=blog&noMore=false&username=agonie201218")
 get_proxy_list()
 print('Done--get_proxy_list!')
 
@@ -128,10 +129,11 @@ print('Done--get_proxy_list!')
 
 
 def do():
-    solve()
+    while count > 0:
+        solve()
 
-    if len(proxy_list) < 10:
-        get_proxy_list()
+        if len(proxy_list) < 10:
+            get_proxy_list()
 
 
 mission = list()  # 多线程跑的快
