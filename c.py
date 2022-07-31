@@ -9,7 +9,7 @@ from time import sleep
 from threading import Thread
 
 random.seed(datetime.datetime.now())
-count = 360
+count = 369
 proxy_list = []
 article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
                 'https://blog.csdn.net/agonie201218/article/details/122607511?spm=1001.2014.3001.5501', 'https://blog.csdn.net/agonie201218/article/details/122945467?spm=1001.2014.3001.5501']
