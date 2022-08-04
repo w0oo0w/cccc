@@ -90,7 +90,7 @@ def get_proxy_list():
 
 def solve():
 
-    sleep(random.randint(0, 400))
+    sleep(random.randint(0, 300))
     article = article_list[random.randint(0, len(article_list)-1)]
     proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
     header = {'User-Agent': User_Agent[random.randint(0, len(User_Agent)-1)],
@@ -109,7 +109,7 @@ def solve():
 
 
 article_list = getList(
-    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=1&size=200&businessType=blog&noMore=false&username=agonie201218")
+    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=2&size=300&businessType=blog&noMore=false&username=agonie201218")
 get_proxy_list()
 print('Done--get_proxy_list!')
 
