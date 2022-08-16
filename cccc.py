@@ -90,7 +90,7 @@ def get_proxy_list():
 
 def solve():
 
-    sleep(random.randint(0, 400))
+    sleep(random.randint(0, 300))
     article = article_list[random.randint(0, len(article_list)-1)]
     proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
     header = {'User-Agent': User_Agent[random.randint(0, len(User_Agent)-1)],
