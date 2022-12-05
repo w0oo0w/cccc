@@ -115,6 +115,7 @@ print('Done--get_proxy_list!')
 
 article_list.append("https://blog.csdn.net/agonie201218/article/details/127959555")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/127965449")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128183523")
 # f = open('output.out', 'w')
 # print(proxy_list, file=f)
 # f.close()
