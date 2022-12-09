@@ -118,7 +118,7 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12796544
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128183523")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128229128")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128235884")
-
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128234052")
 # f = open('output.out', 'w')
 # print(proxy_list, file=f)
 # f.close()
