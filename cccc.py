@@ -109,7 +109,7 @@ def solve():
 
 
 article_list = getList(
-    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=2&size=300&businessType=blog&noMore=false&username=agonie201218")
+    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=2&size=100&businessType=blog&noMore=false&username=agonie201218")
 get_proxy_list()
 print('Done--get_proxy_list!')
 
