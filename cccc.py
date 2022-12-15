@@ -10,8 +10,7 @@ from threading import Thread
 
 random.seed(datetime.datetime.now())
 proxy_list = []
-article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
-                'https://blog.csdn.net/agonie201218/article/details/122607511?spm=1001.2014.3001.5501', 'https://blog.csdn.net/agonie201218/article/details/122945467?spm=1001.2014.3001.5501']
+article_list = []
 cookie = list()
 cookie.append({'cookie': 'l=AurqcPuigwQdnQv7WvAfCoR1OlrRQW7h; isg=BHp6mNB79CHqYXpVEiRteXyyyKNcg8YEwjgLqoRvCI3ddxqxbLtOFUBGwwOrZ3ad; thw=cn; cna=VsJQERAypn0CATrXFEIahcz8; t=0eed37629fe7ef5ec0b8ecb6cd3a3577; tracknick=tb830309_22; _cc_=UtASsssmfA%3D%3D; tg=0; ubn=p; ucn=unzbyun; x=e%3D1%26p%3D*%26s%3D0%26c%3D0%26f%3D0%26g%3D0%26t%3D0%26__ll%3D-1%26_ato%3D0; miid=981798063989731689; hng=CN%7Czh-CN%7CCNY%7C156; um=0712F33290AB8A6D01951C8161A2DF2CDC7C5278664EE3E02F8F6195B27229B88A7470FD7B89F7FACD43AD3E795C914CC2A8BEB1FA88729A3A74257D8EE4FBBC; enc=1UeyOeN0l7Fkx0yPu7l6BuiPkT%2BdSxE0EqUM26jcSMdi1LtYaZbjQCMj5dKU3P0qfGwJn8QqYXc6oJugH%2FhFRA%3D%3D; ali_ab=58.215.20.66.1516409089271.6; mt=ci%3D-1_1; cookie2=104f8fc9c13eb24c296768a50cabdd6e; _tb_token_=ee7e1e1e7dbe7; v=0'})
 User_Agent = [
@@ -115,9 +114,6 @@ print('Done--get_proxy_list!')
 
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128232872")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128298327")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128183523")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128229128")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128235884")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128234052")
 article_list.append("https://andyoung.blog.csdn.net/article/details/128248060")
 article_list.append("https://andyoung.blog.csdn.net/article/details/128295046")
