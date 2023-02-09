@@ -125,8 +125,8 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12864632
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128646324")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/125314410")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128923265")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128923265")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128340338")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128369743")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128369743")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128340338")
