@@ -112,8 +112,9 @@ article_list = getList(
 get_proxy_list()
 print('Done--get_proxy_list!')
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128477281")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128477281")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128951241")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128956555")
+
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128532705")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128532705")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128534034")
@@ -126,8 +127,7 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12892326
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128951241")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128954670")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128951241")
-
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128534034")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128966075")
 # f = open('output.out', 'w')
 # print(proxy_list, file=f)
 # f.close()
