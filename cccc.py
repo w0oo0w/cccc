@@ -114,9 +114,9 @@ print('Done--get_proxy_list!')
 
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128951241")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128956555")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128956555")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128150609")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128532705")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128532705")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128534034")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128564376")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128298327")
