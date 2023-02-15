@@ -112,12 +112,12 @@ article_list = getList(
 get_proxy_list()
 print('Done--get_proxy_list!')
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128951241")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128956555")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/129029558")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128956555")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128150609")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128150609")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/129013591")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128534034")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128564376")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128298327")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128646324")
