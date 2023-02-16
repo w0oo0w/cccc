@@ -83,7 +83,7 @@ def getList(url):  # 获取用户首页的文章列表
 def get_proxy_list():
     for row in urlopen('http://proxylist.fatezero.org/proxy.list').readlines():
         item = json.loads(row)
-        if item['type'] == 'http' and item['anonymity'] == 'high_anonymous' and item['response_time'] < 7:
+        if item['type'] == 'http' and item['anonymity'] == 'high_anonymous' and item['response_time'] < 20:
             proxy_list.append(item['host']+':'+str(item['port']))
 
 
@@ -117,8 +117,8 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12895655
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128150609")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128150609")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129013591")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/128712507")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/128564376")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128298327")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/128646324")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/125314410")
