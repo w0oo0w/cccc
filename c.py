@@ -99,7 +99,7 @@ def solve():
     try:
         requests.get(article.replace('https', 'http'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
-        print('ok ip:'+proxy['http'])
+        print('ok ip:'+proxy['http'] + ', count:' + count)
         count = count -1
     except:
         print('no')
