@@ -6,9 +6,9 @@ triggers:
   push:
     branches:
       prefix:
-        - ''
+        - master
   schedule:
-    - cron: '* 11 * * * ? *'
+    - cron: '* 11 2 * * ? *'
 stages:
   - name: stage-8d77b12f
     displayName: c
