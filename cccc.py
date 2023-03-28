@@ -107,8 +107,7 @@ def solve():
             pass
 
 
-article_list = getList(
-    "https://blog.csdn.net/community/home-api/v1/get-business-list?page=3&size=300&businessType=blog&noMore=false&username=agonie201218")
+article_list = []
 get_proxy_list()
 print('Done--get_proxy_list!')
 
