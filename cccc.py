@@ -4,11 +4,11 @@ from urllib.request import urlopen
 import re
 import json
 import random
-import datetime
+import time
 from time import sleep
 from threading import Thread
 
-random.seed(datetime.datetime.now())
+random.seed(time.time())
 proxy_list = []
 article_list = []
 cookie = list()

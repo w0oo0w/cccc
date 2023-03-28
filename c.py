@@ -5,10 +5,12 @@ import re
 import json
 import random
 import datetime
+import time
 from time import sleep
 from threading import Thread
 
-random.seed(datetime.datetime.now())
+print(time.time())
+random.seed(time.time())
 count = 286
 proxy_list = []
 article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
