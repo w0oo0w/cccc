@@ -1,9 +1,9 @@
 name: CT
 on:
-  - schedule:
+  schedule:
       - cron: "3 2/7 * * *"
-  - workflow_dispatch
-  - push
+  workflow_dispatch
+  push
 jobs:
   build:
     runs-on: ubuntu-latest
