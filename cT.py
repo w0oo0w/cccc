@@ -8,10 +8,12 @@ import time
 from time import sleep
 from threading import Thread
 
+count = 0
 random.seed(time.time())
 proxy_list = []
 article_list = []
 cookie = list()
+cookie.append({'cookie': 'HWWAFSESID=5955c8958d2eff99ebe; HWWAFSESTIME=1674003827591; uuid_tt_dd=10_19970426330-1674003834162-663687; dc_session_id=10_1674003834162.588556; c_pref=default; c_ref=default; c_first_ref=default; c_first_page=https://blog.csdn.net/agonie201218/category_11159108.html; c_dsid=11_1674003831841.752193; c_segment=7; c_page_id=default; log_Id_pv=1; dc_sid=d904cdc4d1e27b164d466b49ce26ae53; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1672103747,1672709220,1674003591; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1674003832; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac={"islogin":{"value":"0","scope":1},"isonline":{"value":"0","scope":1},"isvip":{"value":"0","scope":1}}; hide_login=1; firstDie=1; __gads=ID=7e9152aa51e379b0-225c7ef453d9005c:T=1674003833:RT=1674003833:S=ALNI_Mbw9ge8irY6APS86aicbuXLLsfevQ; __gpi=UID=00000ba65ce69ca7:T=1674003833:RT=1674003833:S=ALNI_MaQYXknz08npTV-1FoQSy43m-pCng; dc_tos=ronpmg; log_Id_view=1; FCNEC=[["AKsRol9hhb7AAKkpFUVh9orEA_puCUUJEyvsVNfDIWR2zrRVC6TkTKOqOYg2OFRY6l1PnyTv6t8eBRiAY_JhR5etoZwuYFt8V58onlj1V8dKBrwGbf7gzCNLE4EdsxgzrBav_uqJypPjun-DL-X255DPa3HAKV7qfw=="],null,[]]'})
 cookie.append({'cookie': 'HWWAFSESID=5955c8958d2eff99ebe; HWWAFSESTIME=1674003827591; uuid_tt_dd=10_19970426330-1674003834162-663687; dc_session_id=10_1674003834162.588556; c_pref=default; c_ref=default; c_first_ref=default; c_first_page=https://blog.csdn.net/agonie201218/category_11159108.html; c_dsid=11_1674003831841.752193; c_segment=7; c_page_id=default; log_Id_pv=1; dc_sid=d904cdc4d1e27b164d466b49ce26ae53; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1672103747,1672709220,1674003591; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1674003832; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac={"islogin":{"value":"0","scope":1},"isonline":{"value":"0","scope":1},"isvip":{"value":"0","scope":1}}; hide_login=1; firstDie=1; __gads=ID=7e9152aa51e379b0-225c7ef453d9005c:T=1674003833:RT=1674003833:S=ALNI_Mbw9ge8irY6APS86aicbuXLLsfevQ; __gpi=UID=00000ba65ce69ca7:T=1674003833:RT=1674003833:S=ALNI_MaQYXknz08npTV-1FoQSy43m-pCng; dc_tos=ronpmg; log_Id_view=1; FCNEC=[["AKsRol9hhb7AAKkpFUVh9orEA_puCUUJEyvsVNfDIWR2zrRVC6TkTKOqOYg2OFRY6l1PnyTv6t8eBRiAY_JhR5etoZwuYFt8V58onlj1V8dKBrwGbf7gzCNLE4EdsxgzrBav_uqJypPjun-DL-X255DPa3HAKV7qfw=="],null,[]]'})
 User_Agent = [
     "Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_2 like Mac OS X; zh-cn) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5",
@@ -96,8 +98,9 @@ def solve():
               'referer': 'http://blog.csdn.net'}
     try:
         requests.get(article.replace('https', 'http'), headers=header, proxies=proxy,
-                     cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
-        print('ok ip:'+proxy['http'])
+                     cookies=cookie[random.randint(0, len(cookie)-1)], timeout=60)
+        count = count + 1;
+        print('ok ip:'+proxy['http'] + " count:"+ count)
 
     except:
         print('no')
