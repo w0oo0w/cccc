@@ -1,7 +1,7 @@
 name: CT
 on:
   schedule:
-    - cron: "3 2/7 * * *"
+    - cron: "3 0/10 * * *"
   push:
     branches:
       - master
