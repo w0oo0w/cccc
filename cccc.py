@@ -162,12 +162,13 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12972475
 def do():
     global total_count
     global success_count
+    global fail_count
     while True:
         solve()
 
         if len(proxy_list) < 10:
             get_proxy_list()
-        if total_count < success_count:
+        if total_count < (success_count + fail_count):
             break
 
 

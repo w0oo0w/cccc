@@ -12,10 +12,9 @@ from threading import Thread
 print(time.time())
 random.seed(time.time())
 count = 0
-total_count = 3000
+total_count = 1000
 proxy_list = []
-article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
-                'https://blog.csdn.net/agonie201218/article/details/122607511?spm=1001.2014.3001.5501', 'https://blog.csdn.net/agonie201218/article/details/122945467?spm=1001.2014.3001.5501']
+article_list = []
 cookie = list()
 cookie.append({'cookie': 'HWWAFSESID=5841b7352fe00c9fd8; HWWAFSESTIME=1674003689588; uuid_tt_dd=10_19970426330-1674003834162-663687; dc_session_id=10_1674003834162.588556; c_pref=default; c_first_ref=default; c_first_page=https://blog.csdn.net/agonie201218/category_11159108.html; c_segment=7; dc_sid=d904cdc4d1e27b164d466b49ce26ae53; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1672103747,1672709220,1674003591; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac={"islogin":{"value":"0","scope":1},"isonline":{"value":"0","scope":1},"isvip":{"value":"0","scope":1}}; hide_login=1; firstDie=1; __gads=ID=7e9152aa51e379b0-225c7ef453d9005c:T=1674003833:RT=1674003833:S=ALNI_Mbw9ge8irY6APS86aicbuXLLsfevQ; __gpi=UID=00000ba65ce69ca7:T=1674003833:RT=1674003833:S=ALNI_MaQYXknz08npTV-1FoQSy43m-pCng; c_dsid=11_1674003841952.496591; FCNEC=[["AKsRol-yTjolYz_VlBMfzudC5UCFNmnLEpsFXW7o8TAVwVvUhaUWHvdwJf6-e__7Ni9ioF4V4uMEb3I0J1yVw7NN5J17Ci7LRPNZTjQ1ATrjTXCU06Czp8yPnNJm4DmOJLRDdpBtgeLuteXtfjl2sre8CNN9WQsW3w=="],null,[]]'})
 User_Agent = [
