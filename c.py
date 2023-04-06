@@ -93,6 +93,7 @@ def get_proxy_list():
 
 def solve():
 
+    global count
     sleep(random.randint(0, 600))
     article = article_list[random.randint(0, len(article_list)-1)]
     proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
@@ -101,7 +102,7 @@ def solve():
     try:
         requests.get(article.replace('https', 'http'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
-        print('ok ip:'+proxy['http'] + ', count:' + count)
+        print('ok ip:'+proxy['http'] + ', count:' + str(count))
         count = count -1
     except:
         print('no')
