@@ -99,7 +99,7 @@ def solve():
     article = article_list[random.randint(0, len(article_list)-1)]
     proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
     header = {'User-Agent': User_Agent[random.randint(0, len(User_Agent)-1)],
-              'referer': 'http://blog.csdn.net'}
+              'referer': 'https://blog.csdn.net'}
     try:
         requests.get(article.replace('https', 'https'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
@@ -144,7 +144,7 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12972475
 def do():
     global total_count
     global count
-    while count > 0:
+    while count >= 0:
         solve()
 
         if len(proxy_list) < 10:
