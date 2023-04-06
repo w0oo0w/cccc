@@ -99,7 +99,7 @@ def solve():
     header = {'User-Agent': User_Agent[random.randint(0, len(User_Agent)-1)],
               'referer': 'http://blog.csdn.net'}
     try:
-        requests.get(article.replace('https', 'http'), headers=header, proxies=proxy,
+        requests.get(article.replace('https', 'https'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
         success_count = success_count + 1;
         print('ok ip:'+proxy['http'] + ' success_count:' + str(success_count) )
