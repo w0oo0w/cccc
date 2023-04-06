@@ -103,8 +103,8 @@ def solve():
     try:
         requests.get(article.replace('https', 'https'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
-        print('ok ip:'+proxy['http'] + ', count:' + str(count))
         count = count + 1
+        print('ok ip:'+proxy['http'] + ', count:' + str(count))
     except:
         print('no')
         try:
