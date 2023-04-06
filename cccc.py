@@ -10,7 +10,7 @@ from threading import Thread
 
 success_count = 0
 fail_count = 0
-total_count = 3000
+total_count = 6000
 random.seed(time.time())
 proxy_list = []
 article_list = []
