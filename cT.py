@@ -9,6 +9,7 @@ from time import sleep
 from threading import Thread
 
 count = 0
+total_count = 10
 random.seed(time.time())
 proxy_list = []
 article_list = []
@@ -137,11 +138,15 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12972475
 
 
 def do():
+    global total_count
+    global count
     while True:
         solve()
 
         if len(proxy_list) < 10:
             get_proxy_list()
+        if total_count < count:
+            break
 
 
 mission = list()  # 多线程跑的快

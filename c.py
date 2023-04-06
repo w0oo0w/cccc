@@ -11,7 +11,8 @@ from threading import Thread
 
 print(time.time())
 random.seed(time.time())
-count = 286
+count = 0
+total_count = 300
 proxy_list = []
 article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
                 'https://blog.csdn.net/agonie201218/article/details/122607511?spm=1001.2014.3001.5501', 'https://blog.csdn.net/agonie201218/article/details/122945467?spm=1001.2014.3001.5501']
@@ -103,7 +104,7 @@ def solve():
         requests.get(article.replace('https', 'https'), headers=header, proxies=proxy,
                      cookies=cookie[random.randint(0, len(cookie)-1)], timeout=7)
         print('ok ip:'+proxy['http'] + ', count:' + str(count))
-        count = count -1
+        count = count + 1
     except:
         print('no')
         try:
@@ -141,11 +142,15 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12972475
 
 
 def do():
+    global total_count
+    global count
     while count > 0:
         solve()
 
         if len(proxy_list) < 10:
             get_proxy_list()
+        if total_count < count:
+            break
 
 
 mission = list()  # 多线程跑的快
