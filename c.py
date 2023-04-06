@@ -12,7 +12,7 @@ from threading import Thread
 print(time.time())
 random.seed(time.time())
 count = 0
-total_count = 300
+total_count = 3000
 proxy_list = []
 article_list = ['https://blog.csdn.net/agonie201218/article/details/112520918?spm=1001.2014.3001.5501',
                 'https://blog.csdn.net/agonie201218/article/details/122607511?spm=1001.2014.3001.5501', 'https://blog.csdn.net/agonie201218/article/details/122945467?spm=1001.2014.3001.5501']
