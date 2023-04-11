@@ -12,7 +12,7 @@ from threading import Thread
 print(time.time())
 random.seed(time.time())
 count = 0
-total_count = 1000
+total_count = 2000
 proxy_list = []
 article_list = []
 cookie = list()
