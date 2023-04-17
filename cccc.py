@@ -143,8 +143,10 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12974608
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129839233")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129871312")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129944178")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130145374")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130175152")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/129396503")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130175152")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129416204")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129621152")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129724757")
