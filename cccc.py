@@ -145,11 +145,12 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/12987131
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129944178")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130145374")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130175152")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130204174")
 
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130175152")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129944150")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129621152")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/129724757")
+
 
 # f = open('output.out', 'w')
 # print(proxy_list, file=f)
