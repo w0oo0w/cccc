@@ -1,7 +1,7 @@
 name: week
 on:
   schedule:
-    - cron: "34 0/8 * * 1,2,3,4,5"
+    - cron: "34 0/12 * * 1,2,3,4,5"
 jobs:
   build:
     runs-on: ubuntu-latest
