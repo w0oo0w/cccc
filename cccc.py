@@ -139,8 +139,8 @@ for a in article_list5:
     article_list.append(a)
 print('Done--get_article_list! '+ str(len(article_list)))
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130411893")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130424297")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/118198535")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/118372175")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129871312")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/129944178")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130145374")
