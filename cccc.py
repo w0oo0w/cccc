@@ -147,11 +147,12 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13056367
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130554075")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130579005")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130609339")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130609339")
 
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130350313")
 
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/127755025")
+
 
 article_list.append("https://juejin.cn/post/7230597098848632887")
 article_list.append("https://juejin.cn/post/7230603857033838653")
