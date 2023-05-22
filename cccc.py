@@ -118,9 +118,10 @@ article_list = []
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130725616")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130725271")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130554075")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130557405")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130563674")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130725616")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130736652")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/130755203")
+
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130554075")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130579005")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130609339")
