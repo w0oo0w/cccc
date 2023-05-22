@@ -65,7 +65,8 @@ def mapUrl(x):
 
 
 def getList(url):  # 获取用户首页的文章列表
-    resp = requests.request("GET", url, data=payload, headers=headers)  # 发送请求
+    proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
+    resp = requests.request("GET", url, data=payload, headers=headers, proxies=proxy, cookies=cookie[random.randint(0, len(cookie)-1)])  # 发送请求
     # resp.encoding = resp.apparent_encoding  # 设置解码方式
     json = resp.json()
     list = json['data']['list']
