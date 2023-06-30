@@ -116,20 +116,16 @@ def solve():
 
 article_list = []
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130725616")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131452597")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130725271")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130725616")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130736652")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130755203")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130755700")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130579005")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130609339")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/130609339")
-
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130725271")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131452597")
 
 get_proxy_list()
 print('Done--get_proxy_list!')
