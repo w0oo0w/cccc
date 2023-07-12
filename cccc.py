@@ -123,8 +123,8 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13164040
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131601150")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131664647")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131601768")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131640402")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/130609339")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131452597")
 
 get_proxy_list()
