@@ -115,8 +115,9 @@ def solve():
             pass
 
 article_list = []
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131592080")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131552134")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131686383")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131685354")
+
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131591557")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131592080")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131640402")
