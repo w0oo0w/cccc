@@ -10,7 +10,7 @@ from threading import Thread
 
 success_count = 0
 fail_count = 0
-total_count = 6000
+total_count = 5000
 random.seed(time.time())
 proxy_list = []
 article_list = []
@@ -120,9 +120,9 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13168535
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131716448")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131766260")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131783826")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131856248")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131842634")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131601150")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131664647")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131601768")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131640402")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131681028")
