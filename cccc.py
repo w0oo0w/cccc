@@ -122,10 +122,9 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13176626
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131783826")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131856248")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131842634")
-
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131601768")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131640402")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131681028")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131825718")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131901749")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/131856248")
 
 get_proxy_list()
 print('Done--get_proxy_list!')
