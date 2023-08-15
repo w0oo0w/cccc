@@ -116,9 +116,9 @@ def solve():
 
 article_list = []
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132018830")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132226616")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132229937")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131685354")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131716448")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131766260")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131783826")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/131856248")
