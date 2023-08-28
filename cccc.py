@@ -125,7 +125,7 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13232285
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132420832")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132401035")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/131856248")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132401035")
 
 get_proxy_list()
 print('Done--get_proxy_list!')
