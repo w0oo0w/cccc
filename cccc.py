@@ -10,7 +10,8 @@ from threading import Thread
 
 success_count = 0
 fail_count = 0
-total_count = 5000
+# total_count = 5000
+total_count = 1000
 random.seed(time.time())
 proxy_list = []
 article_list = []
@@ -117,9 +118,9 @@ def solve():
 article_list = []
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132836922")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132542882")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132966628")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132848464")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132229937")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132292116")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132231381")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132321830")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132322851")
