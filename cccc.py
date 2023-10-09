@@ -120,13 +120,12 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13283692
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132542882")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132966628")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132848464")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132966628")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/133610576")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/133610552")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/133610629")
 
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132231381")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132321830")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132322851")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132420832")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132401035")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/132401035")
 
 get_proxy_list()
