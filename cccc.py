@@ -11,7 +11,7 @@ from threading import Thread
 success_count = 0
 fail_count = 0
 # total_count = 5000
-total_count = 1000
+total_count = 2000
 random.seed(time.time())
 proxy_list = []
 article_list = []
@@ -116,17 +116,17 @@ def solve():
             pass
 
 article_list = []
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132836922")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132542882")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132966628")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132848464")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/132966628")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/133610576")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134033397")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134047691")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134027757")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/133985179")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/133639723")
+
+article_list.append("https://blog.csdn.net/agonie201218/article/details/133610629")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/133610552")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/133610629")
-
-article_list.append("https://blog.csdn.net/agonie201218/article/details/133639723")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/133610759")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134138741")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134035408")
 
 get_proxy_list()
 print('Done--get_proxy_list!')
