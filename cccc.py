@@ -116,17 +116,16 @@ def solve():
             pass
 
 article_list = []
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134033397")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134047691")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134379142")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134379142")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134027757")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/133985179")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134370297")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134370297")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134138741")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/133610629")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134138741")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134035408")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134372797")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134332209")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134260125")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134373302")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134379142")
 
 get_proxy_list()
 print('Done--get_proxy_list!')
