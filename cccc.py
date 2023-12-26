@@ -116,10 +116,12 @@ def solve():
             pass
 
 article_list = []
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134379142")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134379142")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134027757")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/133985179")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134954240")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134803155")
+
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134954240")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/134803155")
+
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134370297")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134372797")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134332209")
