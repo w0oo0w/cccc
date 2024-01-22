@@ -118,18 +118,14 @@ def solve():
 article_list = []
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134954240")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134803155")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134954240")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134803155")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135013169")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134738712")
-
 article_list.append("https://blog.csdn.net/agonie201218/article/details/134205554")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135019127")
-
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134373302")
-article_list.append("https://blog.csdn.net/agonie201218/article/details/134379142")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135128632")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135111308")
 
 get_proxy_list()
 print('Done--get_proxy_list!')
