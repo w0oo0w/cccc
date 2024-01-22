@@ -86,10 +86,11 @@ def getList(url):  # 获取用户首页的文章列表
 
 
 def get_proxy_list():
-    for row in urlopen('http://proxylist.fatezero.org/proxy.list').readlines():
-        item = json.loads(row)
-        if item['type'] == 'http' and item['anonymity'] == 'high_anonymous' and item['response_time'] < 20:
-            proxy_list.append(item['host']+':'+str(item['port']))
+    for row in urlopen('https://sunny9577.github.io/proxy-scraper/proxies.txt').readlines():
+        proxy_list.append(row)
+        #item = json.loads(row)
+        # if item['type'] == 'http' and item['anonymity'] == 'high_anonymous' and item['response_time'] < 20:
+        #    proxy_list.append(item['host']+':'+str(item['port']))
 
 
 def solve():
