@@ -97,7 +97,7 @@ def solve():
 
     global fail_count
     global success_count
-    sleep(random.randint(0, 300))
+    sleep(random.randint(0, 3000))
     article = article_list[random.randint(0, len(article_list)-1)]
     proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
     header = {'User-Agent': User_Agent[random.randint(0, len(User_Agent)-1)],
@@ -134,27 +134,27 @@ solve()
 
 
 #article_list = ['https://andyoung.blog.csdn.net/article/details/127647523', 'https://andyoung.blog.csdn.net/article/details/127643437', 'https://andyoung.blog.csdn.net/article/details/127632052', 'https://andyoung.blog.csdn.net/article/details/127631073', 'https://andyoung.blog.csdn.net/article/details/127646405', 'https://andyoung.blog.csdn.net/article/details/127615445', 'https://andyoung.blog.csdn.net/article/details/127545170', 'https://andyoung.blog.csdn.net/article/details/127531162', 'https://andyoung.blog.csdn.net/article/details/127617954', 'https://andyoung.blog.csdn.net/article/details/127610437', 'https://andyoung.blog.csdn.net/article/details/127604667', 'https://andyoung.blog.csdn.net/article/details/127604763', 'https://andyoung.blog.csdn.net/article/details/127604291', 'https://andyoung.blog.csdn.net/article/details/127530680', 'https://andyoung.blog.csdn.net/article/details/127529692', 'https://andyoung.blog.csdn.net/article/details/127569390', 'https://andyoung.blog.csdn.net/article/details/127529179', 'https://andyoung.blog.csdn.net/article/details/127545010', 'https://andyoung.blog.csdn.net/article/details/127530807', 'https://andyoung.blog.csdn.net/article/details/127528084', 'https://andyoung.blog.csdn.net/article/details/127527105', 'https://andyoung.blog.csdn.net/article/details/127526744', 'https://andyoung.blog.csdn.net/article/details/127491699', 'https://andyoung.blog.csdn.net/article/details/127490677', 'https://andyoung.blog.csdn.net/article/details/127488380', 'https://andyoung.blog.csdn.net/article/details/127487696', 'https://andyoung.blog.csdn.net/article/details/127487074', 'https://andyoung.blog.csdn.net/article/details/127472301', 'https://andyoung.blog.csdn.net/article/details/127471677', 'https://andyoung.blog.csdn.net/article/details/127471196', 'https://andyoung.blog.csdn.net/article/details/127471018', 'https://andyoung.blog.csdn.net/article/details/127447394', 'https://andyoung.blog.csdn.net/article/details/127446724', 'https://andyoung.blog.csdn.net/article/details/127428024', 'https://andyoung.blog.csdn.net/article/details/127427087', 'https://andyoung.blog.csdn.net/article/details/127425240', 'https://andyoung.blog.csdn.net/article/details/127407244', 'https://andyoung.blog.csdn.net/article/details/127405963', 'https://andyoung.blog.csdn.net/article/details/127405493', 'https://andyoung.blog.csdn.net/article/details/127321632', 'https://andyoung.blog.csdn.net/article/details/127320187', 'https://andyoung.blog.csdn.net/article/details/127319851', 'https://andyoung.blog.csdn.net/article/details/127318669', 'https://andyoung.blog.csdn.net/article/details/127305461', 'https://andyoung.blog.csdn.net/article/details/127287323', 'https://andyoung.blog.csdn.net/article/details/127248190', 'https://andyoung.blog.csdn.net/article/details/127222441', 'https://andyoung.blog.csdn.net/article/details/127222054', 'https://andyoung.blog.csdn.net/article/details/127221016', 'https://andyoung.blog.csdn.net/article/details/127209195', 'https://andyoung.blog.csdn.net/article/details/127208824', 'https://andyoung.blog.csdn.net/article/details/127206550', 'https://andyoung.blog.csdn.net/article/details/127185594', 'https://andyoung.blog.csdn.net/article/details/127183870', 'https://andyoung.blog.csdn.net/article/details/127121606', 'https://andyoung.blog.csdn.net/article/details/127119359', 'https://andyoung.blog.csdn.net/article/details/127117898', 'https://andyoung.blog.csdn.net/article/details/127088106', 'https://andyoung.blog.csdn.net/article/details/127047231', 'https://andyoung.blog.csdn.net/article/details/126966802', 'https://andyoung.blog.csdn.net/article/details/126847067', 'https://andyoung.blog.csdn.net/article/details/126832031', 'https://andyoung.blog.csdn.net/article/details/126707042', 'https://andyoung.blog.csdn.net/article/details/126667108', 'https://andyoung.blog.csdn.net/article/details/126636322', 'https://andyoung.blog.csdn.net/article/details/126607270', 'https://andyoung.blog.csdn.net/article/details/126608939', 'https://andyoung.blog.csdn.net/article/details/126603774', 'https://andyoung.blog.csdn.net/article/details/126608051', 'https://andyoung.blog.csdn.net/article/details/126602560', 'https://andyoung.blog.csdn.net/article/details/126602933', 'https://andyoung.blog.csdn.net/article/details/126608353', 'https://andyoung.blog.csdn.net/article/details/126598411', 'https://andyoung.blog.csdn.net/article/details/126583258', 'https://andyoung.blog.csdn.net/article/details/126581731', 'https://andyoung.blog.csdn.net/article/details/126566544', 'https://andyoung.blog.csdn.net/article/details/126566603', 'https://andyoung.blog.csdn.net/article/details/126547604', 'https://andyoung.blog.csdn.net/article/details/126547545', 'https://andyoung.blog.csdn.net/article/details/126493742', 'https://andyoung.blog.csdn.net/article/details/126438529', 'https://andyoung.blog.csdn.net/article/details/126437275', 'https://andyoung.blog.csdn.net/article/details/126436987', 'https://andyoung.blog.csdn.net/article/details/126171981', 'https://andyoung.blog.csdn.net/article/details/126416231', 'https://andyoung.blog.csdn.net/article/details/124485795', 'https://andyoung.blog.csdn.net/article/details/123954205', 'https://andyoung.blog.csdn.net/article/details/126394595', 'https://andyoung.blog.csdn.net/article/details/126394228', 'https://andyoung.blog.csdn.net/article/details/123747981', 'https://andyoung.blog.csdn.net/article/details/126362723', 'https://andyoung.blog.csdn.net/article/details/126362019', 'https://andyoung.blog.csdn.net/article/details/126359881', 'https://andyoung.blog.csdn.net/article/details/126359567', 'https://andyoung.blog.csdn.net/article/details/126347207', 'https://andyoung.blog.csdn.net/article/details/126347069', 'https://andyoung.blog.csdn.net/article/details/126345512', 'https://andyoung.blog.csdn.net/article/details/126344101', 'https://andyoung.blog.csdn.net/article/details/126311740', 'https://andyoung.blog.csdn.net/article/details/126337993']
-article_list1 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=4&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
+#article_list1 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=4&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
 sleep(random.randint(0, 10))
-article_list2 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=5&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
+#article_list2 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=5&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
 sleep(random.randint(10, 20))
-article_list3 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=6&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
-sleep(random.randint(20, 30))
-article_list4 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=7&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
+#article_list3 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=6&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
+#sleep(random.randint(20, 30))
+#article_list4 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=7&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
 sleep(random.randint(30, 80))
-article_list5 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=3&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
+#article_list5 = getList("https://blog.csdn.net/community/home-api/v1/get-business-list?page=3&size=20&businessType=blog&orderby=&noMore=false&year=&month=&username=agonie201218")
 
 
-for a in article_list1:
-    article_list.append(a)
-for a in article_list2:
-    article_list.append(a)
-for a in article_list3:
-    article_list.append(a)
-for a in article_list4:
-    article_list.append(a)
-for a in article_list5:
-    article_list.append(a)
+# for a in article_list1:
+#     article_list.append(a)
+# for a in article_list2:
+#     article_list.append(a)
+# for a in article_list3:
+#     article_list.append(a)
+# for a in article_list4:
+#     article_list.append(a)
+# for a in article_list5:
+#     article_list.append(a)
 print('Done--get_article_list! '+ str(len(article_list)))
 
 
@@ -186,7 +186,7 @@ def do():
 
 
 mission = list()  # 多线程跑的快
-nums = 50
+nums = 5
 for i in range(nums):
     mission.append(Thread(target=do))
 for i in range(nums):
