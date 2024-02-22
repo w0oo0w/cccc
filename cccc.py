@@ -97,7 +97,7 @@ def solve():
 
     global fail_count
     global success_count
-    sleep(random.randint(0, 3000))
+    sleep(random.randint(0, 300))
     article = article_list[random.randint(0, len(article_list)-1)]
     proxy = {'http': proxy_list[random.randint(0, len(proxy_list)-1)]}
     header = {'User-Agent': User_Agent[random.randint(0, len(User_Agent)-1)],
@@ -127,6 +127,16 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13420555
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135019127")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135128632")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135111308")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/132323601")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/136189743")
+
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135828043")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135825761")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135993907")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135823007")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135509162")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/135476840")
+
 
 get_proxy_list()
 print('Done--get_proxy_list!')
@@ -186,7 +196,7 @@ def do():
 
 
 mission = list()  # 多线程跑的快
-nums = 5
+nums = 25
 for i in range(nums):
     mission.append(Thread(target=do))
 for i in range(nums):
