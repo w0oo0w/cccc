@@ -137,6 +137,13 @@ article_list.append("https://blog.csdn.net/agonie201218/article/details/13582300
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135509162")
 article_list.append("https://blog.csdn.net/agonie201218/article/details/135476840")
 
+article_list.append("https://blog.csdn.net/agonie201218/article/details/138065676")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/138074811")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/136932836")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/137954083")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/136687649")
+article_list.append("https://blog.csdn.net/agonie201218/article/details/137145688")
+
 
 get_proxy_list()
 print('Done--get_proxy_list!')
